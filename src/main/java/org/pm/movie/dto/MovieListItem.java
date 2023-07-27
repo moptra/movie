@@ -1,8 +1,9 @@
 package org.pm.movie.dto;
 
+import jakarta.persistence.Column;
 import org.pm.movie.domain.Movie;
 
-public class MovieLiTitl
+public class MovieListItem {
     private Long id;
     private String title;
     private String director;
